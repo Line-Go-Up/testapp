@@ -1,2 +1,5 @@
 def main():
-    print('hello world')
+    msg = 'hello world'
+    return msg
+
+main()

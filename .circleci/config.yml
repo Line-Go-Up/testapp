@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  test:
+    steps:
+      - checkout
+      - run:
+          name: "Install deps"
+          command: "pip install -r requirements.txt"
+      - run:
+          name: "Run the tests"
+          command: "pytest src/ -v"
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
