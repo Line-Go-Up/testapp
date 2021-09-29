@@ -1,1 +1,1 @@
-A test application
+A testing application
