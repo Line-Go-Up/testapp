@@ -1,1 +1,1 @@
-A wonderful testing application for testing
+A wonderful testing application for testing testable things
