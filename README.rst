@@ -1,1 +1,1 @@
-A testing application
+A wonderful testing application
